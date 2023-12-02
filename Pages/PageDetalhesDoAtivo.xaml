@@ -2,11 +2,78 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SistemaDeGestaoDeAtivos.Pages.PageDetalhesDoAtivo"
-             Title="PageDetalhesDoAtivo">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Detalhes dos Ativos">
+    
+    <ScrollView>
+        <StackLayout>
+
+        <!-- Detalhes do Ativo 1 -->
+        <Border StrokeShape="RoundRectangle 15" Margin="10">
+            <StackLayout Margin="15" HeightRequest="350" Spacing="5">
+                <Image Source="button_1.png" HeightRequest="55"/>
+                <Label Text="Detalhes do Ativo 1" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="Nome: Sistema de Gestão de Finanças" FontSize="Medium"/>
+                <Label Text="Tipo: Software" FontSize="Medium"/>
+                <Label Text="Categoria: Finanças" FontSize="Medium"/>
+                <Label Text="Data de Criação: 2022-05-10" FontSize="Medium"/>
+                <Label Text="Descrição: Um sistema abrangente para gerenciamento financeiro, incluindo rastreamento de despesas, orçamento e relatórios detalhados." FontSize="Medium"/>
+                </StackLayout>
+        </Border>
+        
+        <!-- Detalhes do Ativo 2 -->
+        <Border StrokeShape="RoundRectangle 15" Margin="10">
+                <StackLayout Margin="15" HeightRequest="350" Spacing="5">
+                <Image Source="button_2.jpeg" HeightRequest="55"/>
+                <Label Text="Detalhes do Ativo 2" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="Nome: Banco de Dados de Clientes" FontSize="Medium"/>
+                <Label Text="Tipo: Banco de Dados" FontSize="Medium"/>
+                <Label Text="Categoria: CRM" FontSize="Medium"/>
+                <Label Text="Data de Criação: 2022-08-22" FontSize="Medium"/>
+                    <Label Text="Descrição: Um banco de dados centralizado que armazena informações detalhadas sobre os clientes, incluindo histórico de compras, preferências e interações." FontSize="Medium"/>
+            </StackLayout>
+        </Border>
+            
+        <!-- Detalhes do Ativo 3 -->
+        <Border StrokeShape="RoundRectangle 15" Margin="10">
+                <StackLayout Margin="15" HeightRequest="350" Spacing="5">
+                <Image Source="button_3.jpeg" HeightRequest="55"/>
+                <Label Text="Detalhes do Ativo 3" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="Nome: Portal de Recursos Humanos" FontSize="Medium"/>
+                <Label Text="Tipo: Aplicativo Web" FontSize="Medium"/>
+                <Label Text="Categoria: Recursos Humanos" FontSize="Medium"/>
+                <Label Text="Data de Criação: 2022-11-05" FontSize="Medium"/>
+                <Label Text="Descrição: Um portal online que oferece funcionalidades abrangentes para gestão de recursos humanos, incluindo folha de pagamento, gestão de desempenho e colaboração interna." FontSize="Medium"/>
+            </StackLayout>
+        </Border>
+
+        <!-- Detalhes do Ativo 4 -->
+        <Border StrokeShape="RoundRectangle 15" Margin="10">
+                <StackLayout Margin="15" HeightRequest="350" Spacing="5">
+                <Image Source="button_4.jpeg" HeightRequest="55"/>
+                <Label Text="Detalhes do Ativo 4" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="Nome: Documento De Política Internas" FontSize="Medium"/>
+                <Label Text="Tipo: Documento Eletrônico" FontSize="Medium"/>
+                <Label Text="Categoria: Recursos Humanos" FontSize="Medium"/>
+                <Label Text="Data de Criação: 2022-02-03" FontSize="Medium"/>
+                <Label Text="Descrição:Um documento eletrônico contendo as políticas internas da empresa, diretrizes de recursos humanos e informações importantes para os funcionários." FontSize="Medium"/>
+            </StackLayout>
+        </Border>
+        
+        <!-- Detalhes do Ativo 5 -->
+        <Border StrokeShape="RoundRectangle 15" Margin="10">
+                <StackLayout Margin="15" HeightRequest="350" Spacing="5">
+                <Image Source="button_1.png" HeightRequest="55"/>
+                <Label Text="Detalhes do Ativo 5" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="Nome: Especificações Técnicas do Produto" FontSize="Medium"/>
+                <Label Text="Tipo: Documento Eletrônico" FontSize="Medium"/>
+                <Label Text="Categoria: Desenvolvimento de Produto" FontSize="Medium"/>
+                <Label Text="Data de Criação: 2023-04-03" FontSize="Medium"/>
+                    <Label Text="Descrição: Um documento eletrônico contendo especificações técnicas detalhadas para um produto específico." FontSize="Medium"/>
+            </StackLayout>
+        </Border>
+
+
+        </StackLayout>
+    </ScrollView>
+    
 </ContentPage>

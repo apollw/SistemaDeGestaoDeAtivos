@@ -1,15 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="SistemaDeGestaoDeAtivos.AppShell"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:SistemaDeGestaoDeAtivos"
-    Shell.FlyoutBehavior="Disabled"
-    Title="Gestor de Ativos de Informação Empresarial">
+    x:Class                     = "SistemaDeGestaoDeAtivos.AppShell"
+    xmlns                       = "http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x                     = "http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local                 = "clr-namespace:SistemaDeGestaoDeAtivos"
+    xmlns:views                 = "clr-namespace:SistemaDeGestaoDeAtivos.Pages"
+    Shell.FlyoutBehavior        = "Disabled"
+    Shell.TitleColor            = "White"
+    Shell.TabBarIsVisible       =  "True"
+    Shell.TabBarBackgroundColor = "LightGray"
+    Shell.TabBarUnselectedColor = "Black"
+    Shell.TabBarTitleColor      = "DarkCyan"
+    Shell.BackgroundColor       = "#14d1ca"
+    Title                       = "Gestor de Ativos de Informação Empresarial">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+
+    <ShellItem
+        Title               = "Gestor de Ativos de Informação Empresarial"
+        Route               = "MainPage"
+        FlyoutItemIsVisible = "False">
+        <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
+    </ShellItem>
+
+    <TabBar>
+        <Tab Title="Home"
+             Icon="icon_inicio.png">
+            <ShellContent ContentTemplate = "{DataTemplate views:PageInicio}"
+             Route="PageInicio"/>
+        </Tab>
+        <Tab Title="Cadastro de Ativos"
+             Icon="icon_cadastro.png">
+            <ShellContent ContentTemplate = "{DataTemplate views:PageCadastroDeAtivo}"
+             Route="PageCadastroDeAtivo"/>
+        </Tab>
+        <Tab Title="Detalhes do Ativo"
+            Icon="icon_pesquisar.png">
+            <ShellContent ContentTemplate = "{DataTemplate views:PageDetalhesDoAtivo}"
+            Route="PageDetalhesDoAtivo"/>
+        </Tab>        
+        <Tab Title="Filtro"
+             Icon="icon_filtro.png">
+            <ShellContent ContentTemplate = "{DataTemplate views:PageFiltro}"
+             Route="PageFiltro"/>
+        </Tab>
+        <Tab Title="Relatório"
+             Icon="icon_relatorio.png">
+            <ShellContent ContentTemplate = "{DataTemplate views:PageRelatorio}"
+             Route="PageRelatorio"/>
+        </Tab>
+        <Tab Title="Visualização de Ativo"
+             Icon="icon_visualizar.png">
+            <ShellContent ContentTemplate = "{DataTemplate views:PageVisualizacaoDeAtivo}"
+             Route="PageVisualizacaoDeAtivo"/>
+        </Tab>
+    </TabBar>
 
 </Shell>
+
+
+    

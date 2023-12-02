@@ -2,11 +2,120 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SistemaDeGestaoDeAtivos.Pages.PageInicio"
-             Title="PageInicio">
-    <VerticalStackLayout>
+             Title="Gestor de Ativos de Informação">
+    
+    <ScrollView>
+        <StackLayout Margin="20" Spacing="15">
+        
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+            Text="Visão Geral do Sistema"
+            FontSize="Large" 
+            FontAttributes="Bold" 
+            HorizontalOptions="Center" 
+            VerticalOptions="CenterAndExpand" />
+            
+        <!--IMAGEM 2-->
+        <Border StrokeShape="RoundRectangle 50" BackgroundColor="Black">
+            <Image Source="button_1.png" HeightRequest="200"/>
+        </Border>
+            
+        <!-- Descrição das funcionalidades -->
+        <Border StrokeShape="RoundRectangle 15">
+            <StackLayout Margin="15" HeightRequest="55">
+                <Label Text="1. Autenticação e Autorização" FontSize="Medium" FontAttributes="Bold"/>
+                <Label 
+                    Text="Permite que usuários façam login no sistema e controla o acesso a funcionalidades específicas."/>
+            </StackLayout>        
+        </Border>
+        
+        <Border StrokeShape="RoundRectangle 15">
+            <StackLayout Margin="15" HeightRequest="55">
+                <Label Text="2. Gestão de Ativos" FontSize="Medium" FontAttributes="Bold" />
+                <Label Text="Permite a adição, visualização e edição de ativos de informação, categorizando-os conforme necessário." />
+            </StackLayout>
+        </Border>
+
+        <Border StrokeShape="RoundRectangle 15">
+            <StackLayout Margin="15" HeightRequest="55">
+                <Label Text="3. Relacionamentos e Dependências" FontSize="Medium" FontAttributes="Bold" />
+                <Label Text="Possibilita a definição de relacionamentos entre ativos, rastreando dependências entre eles." />
+            </StackLayout>
+        </Border>
+
+        <Border StrokeShape="RoundRectangle 15">
+            <StackLayout Margin="15" HeightRequest="55">
+                <Label Text="4. Busca e Filtros" FontSize="Medium"  FontAttributes="Bold"/>
+                <Label Text="Facilita a busca de ativos com base em critérios específicos e utiliza filtros para refinar os resultados." />
+            </StackLayout>
+        </Border>
+        
+        <Border StrokeShape="RoundRectangle 15">
+            <StackLayout Margin="15" HeightRequest="55">
+                <Label Text="5. Relatórios e Estatísticas" FontSize="Medium" FontAttributes="Bold"/>
+                <Label Text="Gera relatórios simples sobre os ativos, apresentando estatísticas na tela inicial (dashboard)." />
+            </StackLayout>
+        </Border>
+        
+        <!--IMAGEM 2-->
+        <Border StrokeShape="RoundRectangle 50" BackgroundColor="Black">
+            <Image Source="button_3.jpeg" HeightRequest="200"/>
+        </Border>
+            
+        <Border StrokeShape="RoundRectangle 15">
+            <StackLayout Margin="15" HeightRequest="55">
+                <Label Text="6. Histórico e Auditoria" FontSize="Medium" FontAttributes="Bold"/>
+                <Label Text="Registra todas as modificações nos ativos, permitindo auditoria para rastrear alterações e quem as fez." />
+            </StackLayout>
+        </Border>
+            
+        <Border StrokeShape="RoundRectangle 15">
+            <StackLayout Margin="15" HeightRequest="55">
+                <Label Text="7. Integração com Sistemas Externos" FontSize="Medium" FontAttributes="Bold"/>
+                <Label Text="Integra-se com outros sistemas da organização para obter dados adicionais ou sincronizar informações." />
+            </StackLayout>
+        </Border>
+            
+        <Border StrokeShape="RoundRectangle 15">
+            <StackLayout Margin="15" HeightRequest="55">
+                <Label Text="8. Notificações e Alertas" FontSize="Medium" FontAttributes="Bold" />
+                <Label Text="Envia notificações para alertar sobre alterações importantes nos ativos, com alertas configuráveis." />
+            </StackLayout>
+        </Border>
+            
+        <Border StrokeShape="RoundRectangle 15">
+            <StackLayout Margin="15" HeightRequest="55">
+                <Label Text="9. Segurança da Informação" FontSize="Medium" FontAttributes="Bold" />
+                <Label Text="Implementa práticas de segurança, como criptografia, e oferece controle de acesso granular." />
+            </StackLayout>
+        </Border>
+            
+        <Border StrokeShape="RoundRectangle 15">
+            <StackLayout Margin="15" HeightRequest="55">
+                <Label Text="10. Backup e Recuperação" FontSize="Medium" FontAttributes="Bold" />
+                <Label Text="Possui mecanismos de backup para garantir a segurança dos dados e facilita a recuperação em casos de falhas." />
+            </StackLayout>
+        </Border>
+
+        <!--IMAGEM 2-->
+        <Border StrokeShape="RoundRectangle 50" BackgroundColor="Black">
+            <Image Source="button_4.jpeg" HeightRequest="200"/>
+        </Border>
+            
+        <Border StrokeShape="RoundRectangle 15">
+            <StackLayout Margin="15" HeightRequest="55">
+                <Label Text="11. Configurações do Sistema" FontSize="Medium" FontAttributes="Bold"/>
+                <Label Text="Permite personalização das configurações do sistema, como notificações, preferências do usuário, etc." />
+            </StackLayout>
+        </Border>
+            
+        <Border StrokeShape="RoundRectangle 15">
+            <StackLayout Margin="15" HeightRequest="55">
+                <Label Text="12. Documentação e Ajuda" FontSize="Medium" FontAttributes="Bold"/>
+                <Label Text="Oferece recursos de documentação integrados e um sistema de ajuda para orientar os usuários." />
+            </StackLayout>
+        </Border>
+        
+        </StackLayout>
+    </ScrollView>
+
 </ContentPage>

@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LEANDERSON</Machine>
+    <WindowsUser>Leanderson</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>com.companyname.sistemadegestaodeativos</PackageIdentityName>
+    <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\bin\Release\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <RegisteredManifestChecksum>31AF675C2256A7A919A8ACC8AB7BE36E793048E7D70ECAB16CA1734C6016B9CC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.companyname.sistemadegestaodeativos_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>com.companyname.sistemadegestaodeativos_9zz4h110yvjzm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>com.companyname.sistemadegestaodeativos</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=User Name</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\bin\Release\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-12-02T04:44:53.195</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\bin\Release\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2023-12-02T04:44:52.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\bin\Release\net8.0-windows10.0.19041.0\win10-x64\SistemaDeGestaoDeAtivos.runtimeconfig.json">
+      <PackagePath>SistemaDeGestaoDeAtivos.runtimeconfig.json</PackagePath>
+      <Modified>2023-12-02T04:44:52.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+      <PackagePath>SistemaDeGestaoDeAtivos.exe</PackagePath>
+      <Modified>2023-12-02T04:44:51.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\Resources\Raw\AboutAssets.txt">
+      <PackagePath>AboutAssets.txt</PackagePath>
+      <Modified>2023-11-28T16:35:47.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+      <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+      <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+      <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+      <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+      <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+      <PackagePath>OpenSans-Regular.ttf</PackagePath>
+      <Modified>2023-11-28T16:35:47.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+      <PackagePath>OpenSans-Semibold.ttf</PackagePath>
+      <Modified>2023-11-28T16:35:47.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\button_2.scale-100.jpeg">
+      <PackagePath>button_2.scale-100.jpeg</PackagePath>
+      <Modified>2023-12-02T01:28:01.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bar_chart2.scale-100.png">
+      <PackagePath>bar_chart2.scale-100.png</PackagePath>
+      <Modified>2023-12-02T04:33:58.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\button_1.scale-100.png">
+      <PackagePath>button_1.scale-100.png</PackagePath>
+      <Modified>2023-12-02T01:22:05.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\button_4.scale-100.jpeg">
+      <PackagePath>button_4.scale-100.jpeg</PackagePath>
+      <Modified>2023-12-02T01:28:53.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bar_chart.scale-100.jpg">
+      <PackagePath>bar_chart.scale-100.jpg</PackagePath>
+      <Modified>2023-12-02T04:33:48.653</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_pesquisar.scale-100.png">
+      <PackagePath>icon_pesquisar.scale-100.png</PackagePath>
+      <Modified>2023-12-02T02:04:30.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_cadastro.scale-100.png">
+      <PackagePath>icon_cadastro.scale-100.png</PackagePath>
+      <Modified>2023-12-02T02:02:45.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_sistema.scale-100.png">
+      <PackagePath>logo_sistema.scale-100.png</PackagePath>
+      <Modified>2023-12-02T01:12:52.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_visualizar.scale-100.png">
+      <PackagePath>icon_visualizar.scale-100.png</PackagePath>
+      <Modified>2023-12-02T02:03:16.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\button_3.scale-100.jpeg">
+      <PackagePath>button_3.scale-100.jpeg</PackagePath>
+      <Modified>2023-12-02T01:28:28.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_filtro.scale-100.png">
+      <PackagePath>icon_filtro.scale-100.png</PackagePath>
+      <Modified>2023-12-02T02:03:36.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_inicio.scale-100.png">
+      <PackagePath>icon_inicio.scale-100.png</PackagePath>
+      <Modified>2023-12-02T02:04:53.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_relatorio.scale-100.png">
+      <PackagePath>icon_relatorio.scale-100.png</PackagePath>
+      <Modified>2023-12-02T02:03:58.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2023-12-02T04:44:51.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2023-12-02T04:44:51.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2023-12-02T04:44:51.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2023-12-02T04:44:51.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+      <Modified>2023-12-02T04:44:51.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+      <Modified>2023-12-02T04:44:51.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2023-12-02T04:44:51.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2023-12-02T04:44:50.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2023-12-02T04:44:50.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\bin\Release\net8.0-windows10.0.19041.0\win10-x64\SistemaDeGestaoDeAtivos.deps.json">
+      <PackagePath>SistemaDeGestaoDeAtivos.deps.json</PackagePath>
+      <Modified>2023-12-02T04:44:52.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
+      <Modified>2023-10-16T19:41:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
+      <PackagePath>WinRT.Runtime.dll</PackagePath>
+      <Modified>2023-10-16T19:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:44:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ca\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ca\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:44:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\cs\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>cs\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\da\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>da\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:44:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\de\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>de\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:44:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\el\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>el\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\es\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>es\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\fi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>fi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\fr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>fr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\he\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>he\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\hi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\hr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\hu\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hu\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\id\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>id\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\it\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>it\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ja\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ja\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ko\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ko\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ms\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ms\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\nb\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>nb\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\nl\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>nl\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\pl\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pl\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:46:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\pt-BR\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pt-BR\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\pt\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pt\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ro\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ro\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\ru\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ru\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\sk\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>sk\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\sv\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>sv\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\th\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>th\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:44:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\tr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>tr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\uk\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>uk\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\vi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>vi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\zh-HK\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-HK\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\zh-Hans\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\zh-Hant\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2023-11-07T20:45:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2023-05-31T20:12:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2023-04-28T12:58:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Configuration.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
+      <Modified>2023-12-02T04:43:45.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Configuration.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
+      <Modified>2023-12-02T04:43:45.639</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+      <Modified>2023-12-02T04:43:45.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+      <Modified>2023-12-02T04:43:46.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Logging.dll">
+      <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
+      <Modified>2023-12-02T04:43:46.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+      <Modified>2023-12-02T04:43:46.623</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Logging.Debug.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
+      <Modified>2023-12-02T04:43:46.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Options.dll">
+      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
+      <Modified>2023-12-02T04:43:47.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
+      <Modified>2023-12-02T04:43:47.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Graphics.Canvas.Interop.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
+      <Modified>2023-12-02T04:43:48.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Controls.Compatibility.dll">
+      <PackagePath>Microsoft.Maui.Controls.Compatibility.dll</PackagePath>
+      <Modified>2023-12-02T04:43:49.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Controls.dll">
+      <PackagePath>Microsoft.Maui.Controls.dll</PackagePath>
+      <Modified>2023-12-02T04:43:50.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Controls.Xaml.dll">
+      <PackagePath>Microsoft.Maui.Controls.Xaml.dll</PackagePath>
+      <Modified>2023-12-02T04:43:50.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.dll">
+      <PackagePath>Microsoft.Maui.dll</PackagePath>
+      <Modified>2023-12-02T04:43:51.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Essentials.dll">
+      <PackagePath>Microsoft.Maui.Essentials.dll</PackagePath>
+      <Modified>2023-12-02T04:43:51.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Graphics.dll">
+      <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
+      <Modified>2023-12-02T04:43:52.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
+      <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
+      <Modified>2023-12-02T04:43:52.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+      <Modified>2023-12-02T04:43:53.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.WinUI.dll">
+      <PackagePath>Microsoft.WinUI.dll</PackagePath>
+      <Modified>2023-12-02T04:43:56.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.AppLifecycle.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
+      <Modified>2023-12-02T04:43:57.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
+      <Modified>2023-12-02T04:43:57.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.AppNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
+      <Modified>2023-12-02T04:43:57.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
+      <Modified>2023-12-02T04:43:57.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
+      <Modified>2023-12-02T04:43:58.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+      <Modified>2023-12-02T04:43:58.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.PushNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
+      <Modified>2023-12-02T04:43:58.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.Security.AccessControl.Projection.dll">
+      <PackagePath>Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
+      <Modified>2023-12-02T04:43:58.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.System.Power.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Power.Projection.dll</PackagePath>
+      <Modified>2023-12-02T04:43:59.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.System.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Projection.dll</PackagePath>
+      <Modified>2023-12-02T04:43:59.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.Widgets.Projection.dll">
+      <PackagePath>Microsoft.Windows.Widgets.Projection.dll</PackagePath>
+      <Modified>2023-12-02T04:43:59.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+      <Modified>2023-12-02T04:43:59.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.WindowsAppRuntime.Release.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Release.Net.dll</PackagePath>
+      <Modified>2023-12-02T04:44:00.217</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\SistemaDeGestaoDeAtivos.dll">
+      <PackagePath>SistemaDeGestaoDeAtivos.dll</PackagePath>
+      <Modified>2023-12-02T04:44:53.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.compatibility\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
+      <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
+      <Modified>2023-11-07T20:32:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.controls.core\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
+      <PackagePath>Microsoft.Maui.Controls.pri</PackagePath>
+      <Modified>2023-11-07T20:31:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.maui.core\8.0.3\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
+      <PackagePath>Microsoft.Maui.pri</PackagePath>
+      <Modified>2023-11-07T20:31:12.000</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\Leanderson\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Leanderson\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Leanderson\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Leanderson\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Leanderson\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Leanderson\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Leanderson\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Leanderson\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

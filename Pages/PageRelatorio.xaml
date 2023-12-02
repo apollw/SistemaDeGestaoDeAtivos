@@ -2,11 +2,79 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SistemaDeGestaoDeAtivos.Pages.PageRelatorio"
-             Title="PageRelatorio">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Relatórios Gerais de Ativos">
+    
+    <ScrollView>
+        <StackLayout Margin="20">
+            
+        <!-- Título e Ilustração -->        
+        <Label Text="Relatório de Ativos de Informação" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center"/>
+        <Image Source="relatorio_icon.png" WidthRequest="150" HeightRequest="150" HorizontalOptions="Center"/>
+        <Image Source="bar_chart2.png" HeightRequest="150"/>
+
+            <!-- Seção de Filtros -->
+        <Frame BackgroundColor="White" CornerRadius="10" Padding="15" Margin="0,0,0,20">
+            <StackLayout>
+                    <Label Text="Filtros Avançados" FontSize="Medium" FontAttributes="Bold" Margin="0,0,0,10"/>
+
+                    <!-- Filtro por Nome -->
+                    <Label Text="Nome" FontAttributes="Bold"/>
+                    <Entry Placeholder="Digite o Nome do Ativo" x:Name="EntryNome"/>
+
+                    <!-- Filtro por Tipo -->
+                    <Label Text="Tipo" FontAttributes="Bold"/>
+                    <Entry Placeholder="Digite o Tipo do Ativo" x:Name="EntryTipo"/>
+
+                    <!-- Filtro por Categoria -->
+                    <Label Text="Selecione uma Categoria:" FontAttributes="Bold"/>
+                    <Picker FontAttributes="Bold" x:Name="PickerCategoria">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>CRM</x:String>
+                                <x:String>Recursos Humanos</x:String>
+                                <x:String>Vendas</x:String>
+                                <x:String>Desenvolvimento de Produto</x:String>
+                                <x:String>Marketing</x:String>
+                                <x:String>TI</x:String>
+                                <x:String>Logística</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+
+                    <!-- Filtro por Data de Criação -->
+                    <Label Text="Selecione a Data de Criação:" FontAttributes="Bold"/>
+                    <DatePicker x:Name="DatePickerDataCriacao"/>
+
+                    <!-- Filtro por Status -->
+                    <Label Text="Selecione o Status:" FontAttributes="Bold"/>
+                    <Picker x:Name="PickerStatus">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Ativo</x:String>
+                                <x:String>Inativo</x:String>
+                                <x:String>Em Revisão</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+
+                    <Label Text="Filtros Adicionais:" FontAttributes="Bold"/>
+                    <Entry Placeholder="Outro Critério" x:Name="EntryOutroCriterio"/>
+
+                    <!-- Botão de Busca -->
+                    <Button Text="Gerar Relatório" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="Black" TextColor="White"/>
+
+                </StackLayout>
+        </Frame>
+
+        <!-- Seção de Resultados (Simulação) -->
+        <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
+            <StackLayout>
+                <Image Source="bar_chart.jpg" HeightRequest="150"/>
+            </StackLayout>
+        </Frame>
+        
+        </StackLayout>
+    </ScrollView>
+
+
 </ContentPage>

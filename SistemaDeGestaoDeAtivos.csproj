@@ -56,6 +56,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\bar_chart.jpg" />
+	  <None Remove="Resources\Images\bar_chart2.png" />
+	  <None Remove="Resources\Images\button_1.png" />
+	  <None Remove="Resources\Images\button_2.jpeg" />
+	  <None Remove="Resources\Images\button_3.jpeg" />
+	  <None Remove="Resources\Images\button_4.jpeg" />
+	  <None Remove="Resources\Images\icon_cadastro.png" />
+	  <None Remove="Resources\Images\icon_filtro.png" />
+	  <None Remove="Resources\Images\icon_inicio.png" />
+	  <None Remove="Resources\Images\icon_pesquisar.png" />
+	  <None Remove="Resources\Images\icon_relatorio.png" />
+	  <None Remove="Resources\Images\icon_visualizar.png" />
+	  <None Remove="Resources\Images\logo_sistema.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
@@ -83,7 +99,7 @@
 	  <MauiXaml Update="Pages\PageInicio.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\PageLogin.xaml">
+	  <MauiXaml Update="Pages\PageLoading.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\PageRelatorio.xaml">
