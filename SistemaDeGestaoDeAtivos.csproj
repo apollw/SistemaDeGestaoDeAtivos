@@ -68,6 +68,7 @@
 	  <None Remove="Resources\Images\icon_pesquisar.png" />
 	  <None Remove="Resources\Images\icon_relatorio.png" />
 	  <None Remove="Resources\Images\icon_visualizar.png" />
+	  <None Remove="Resources\Images\logo_atualizado.png" />
 	  <None Remove="Resources\Images\logo_sistema.png" />
 	</ItemGroup>
 

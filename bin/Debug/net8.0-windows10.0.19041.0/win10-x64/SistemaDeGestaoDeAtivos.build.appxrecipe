@@ -250,6 +250,9 @@
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_visualizar.scale-100.png">
       <PackagePath>icon_visualizar.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_atualizado.scale-100.png">
+      <PackagePath>logo_atualizado.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_sistema.scale-100.png">
       <PackagePath>logo_sistema.scale-100.png</PackagePath>
     </AppxPackagedFile>

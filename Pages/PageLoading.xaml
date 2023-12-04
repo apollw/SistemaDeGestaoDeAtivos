@@ -3,11 +3,12 @@
              xmlns:x = "http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class = "SistemaDeGestaoDeAtivos.Pages.PageLoading"
              Title   = "Entrando..."
+             BackgroundColor="#363636"
              Shell.TabBarIsVisible = "False">
     
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <ActivityIndicator IsRunning="True"/>
-        <Label Text="Autenticando..."/>
+        <ActivityIndicator IsRunning="True" HeightRequest="150" WidthRequest="150"/>
+        <Label Text="Autenticando..." TextColor="WhiteSmoke" HeightRequest="150" WidthRequest="150"/>
         
     </StackLayout>
 </ContentPage>

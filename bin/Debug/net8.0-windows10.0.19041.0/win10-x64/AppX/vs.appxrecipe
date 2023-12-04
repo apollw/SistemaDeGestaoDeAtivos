@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-02T04:45:26.477</Modified>
+      <Modified>2023-12-04T02:18:59.989</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-02T04:34:28.882</Modified>
+      <Modified>2023-12-04T00:20:06.011</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SistemaDeGestaoDeAtivos.runtimeconfig.json">
       <PackagePath>SistemaDeGestaoDeAtivos.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SistemaDeGestaoDeAtivos.dll">
       <PackagePath>SistemaDeGestaoDeAtivos.dll</PackagePath>
-      <Modified>2023-12-02T04:45:25.913</Modified>
+      <Modified>2023-12-04T02:18:58.783</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SistemaDeGestaoDeAtivos.exe</PackagePath>
-      <Modified>2023-12-02T04:45:25.913</Modified>
+      <Modified>2023-12-04T02:18:58.846</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -292,23 +292,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-12-02T04:34:21.589</Modified>
+      <Modified>2023-12-04T00:20:03.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-12-02T04:34:21.604</Modified>
+      <Modified>2023-12-04T00:20:03.204</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-12-02T04:34:21.604</Modified>
+      <Modified>2023-12-04T00:20:03.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-12-02T04:34:21.636</Modified>
+      <Modified>2023-12-04T00:20:03.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-12-02T04:34:21.729</Modified>
+      <Modified>2023-12-04T00:20:03.344</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_cadastro.scale-100.png">
       <PackagePath>icon_cadastro.scale-100.png</PackagePath>
@@ -334,13 +334,17 @@
       <PackagePath>icon_visualizar.scale-100.png</PackagePath>
       <Modified>2023-12-02T02:03:16.911</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_atualizado.scale-100.png">
+      <PackagePath>logo_atualizado.scale-100.png</PackagePath>
+      <Modified>2023-12-04T00:19:27.074</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_sistema.scale-100.png">
       <PackagePath>logo_sistema.scale-100.png</PackagePath>
       <Modified>2023-12-02T01:12:52.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leanderson\source\repos\SistemaDeGestaoDeAtivos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SistemaDeGestaoDeAtivos.deps.json">
       <PackagePath>SistemaDeGestaoDeAtivos.deps.json</PackagePath>
-      <Modified>2023-12-02T04:45:26.320</Modified>
+      <Modified>2023-12-04T00:20:05.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Leanderson\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

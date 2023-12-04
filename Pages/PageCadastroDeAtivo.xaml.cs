@@ -64,6 +64,24 @@ public partial class PageCadastroDeAtivo : ContentPage
                 Descricao = "Custo estimado do ativo em reais",
                 AtivoInformacaoId = 106,
                 AtivoInformacao = new AtivoInformacao { Id = 106, Nome = "Ativo 6" }
+            },
+            new Metadado
+            {
+                Id = 7,
+                Chave = "Versão",
+                Valor = "1.0",
+                Descricao = "Versão do Ativo",
+                AtivoInformacaoId = 107,
+                AtivoInformacao = new AtivoInformacao { Id = 107, Nome = "Ativo 7" }
+            },
+            new Metadado
+            {
+                Id = 8,
+                Chave = "Plataforma",
+                Valor = "Windows",
+                Descricao = "Plataforma do Software",
+                AtivoInformacaoId = 108,
+                AtivoInformacao = new AtivoInformacao { Id = 108, Nome = "Ativo 8" }
             }
         };
 

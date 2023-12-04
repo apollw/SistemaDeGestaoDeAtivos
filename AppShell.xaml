@@ -5,13 +5,12 @@
     xmlns:x                     = "http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local                 = "clr-namespace:SistemaDeGestaoDeAtivos"
     xmlns:views                 = "clr-namespace:SistemaDeGestaoDeAtivos.Pages"
-    Shell.FlyoutBehavior        = "Disabled"
     Shell.TitleColor            = "White"
     Shell.TabBarIsVisible       =  "True"
-    Shell.TabBarBackgroundColor = "LightGray"
-    Shell.TabBarUnselectedColor = "Black"
-    Shell.TabBarTitleColor      = "DarkCyan"
-    Shell.BackgroundColor       = "#14d1ca"
+    Shell.TabBarBackgroundColor = "DarkGray"
+    Shell.TabBarUnselectedColor = "#363636"
+    Shell.TabBarTitleColor      = "White"
+    Shell.BackgroundColor       = "Black"
     Title                       = "Gestor de Ativos de Informação Empresarial">
 
 

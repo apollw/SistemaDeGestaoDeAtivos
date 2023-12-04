@@ -2,26 +2,27 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SistemaDeGestaoDeAtivos.Pages.PageFiltro"
+             BackgroundColor="#363636"
              Title="Filtros de Ativos">
 
     <ScrollView>
         <StackLayout Margin="20">
             <StackLayout>
-                <Label Text="Filtros Avançados de Ativos de Informação" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,0,0,20"/>
+                <Label TextColor="#CAA979" Text="Filtros Avançados de Ativos de Informação" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,0,0,20"/>
                 <Image Source="icon_filtro.png" WidthRequest="150" HeightRequest="150" HorizontalOptions="Center"/>
             </StackLayout>
 
             <!-- Filtro por Nome -->
-            <Label Text="Nome" FontAttributes="Bold" />
-            <Entry Placeholder="Digite o Nome do Ativo" x:Name="EntryNome" Margin="0,0,0,10" />
+            <Label Text="Nome" FontAttributes="Bold" TextColor="#CAA979" />
+            <Entry Placeholder="Digite o Nome do Ativo" x:Name="EntryNome" Margin="0,0,0,10" BackgroundColor="Gray"/>
 
             <!-- Filtro por Tipo -->
-            <Label Text="Tipo" FontAttributes="Bold" />
-            <Entry Placeholder="Digite o Tipo do Ativo" x:Name="EntryTipo" Margin="0,0,0,10" />
+            <Label Text="Tipo" FontAttributes="Bold" TextColor="#CAA979"/>
+            <Entry Placeholder="Digite o Tipo do Ativo" x:Name="EntryTipo" Margin="0,0,0,10" BackgroundColor="Gray" />
 
             <!-- Filtro por Categoria -->
-            <Label Text="Selecione uma Categoria:" FontAttributes="Bold" Margin="0,0,0,10"/>
-            <Picker FontAttributes="Bold" x:Name="PickerCategoria" Margin="0,0,0,10">
+            <Label Text="Selecione uma Categoria:" TextColor="#CAA979" FontAttributes="Bold" Margin="0,0,0,10"/>
+            <Picker FontAttributes="Bold" TextColor="Gray" x:Name="PickerCategoria" Margin="0,0,0,10" BackgroundColor="Gray">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>CRM</x:String>
@@ -31,34 +32,55 @@
                         <x:String>Marketing</x:String>
                         <x:String>TI</x:String>
                         <x:String>Logística</x:String>
-                        <!-- Adicione mais categorias conforme necessário -->
+                        <x:String>Hardware</x:String>
+                        <x:String>Software</x:String>
+                        <x:String>Documento</x:String>
+                        <x:String>Dados</x:String>
+                        <x:String>Equipamento</x:String>
+                        <x:String>Aplicativo</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
 
             <!-- Filtro por Data de Criação -->
-            <Label Text="Selecione a Data de Criação:" FontAttributes="Bold" Margin="0,0,0,10"/>
-            <DatePicker x:Name="DatePickerDataCriacao" Margin="0,0,0,10"/>
+            <Label Text="Selecione a Data de Criação:" TextColor="#CAA979" FontAttributes="Bold" Margin="0,0,0,10"/>
+            <DatePicker x:Name="DatePickerDataCriacao" BackgroundColor="Gray" Margin="0,0,0,10"/>
 
             <!-- Filtro por Status -->
-            <Label Text="Selecione o Status:" FontAttributes="Bold" Margin="0,0,0,10"/>
-            <Picker x:Name="PickerStatus" Margin="0,0,0,10">
+            <Label Text="Selecione o Status:" TextColor="#CAA979"  FontAttributes="Bold" Margin="0,0,0,10"/>
+            <Picker x:Name="PickerStatus" BackgroundColor="Gray" TextColor="Gray" Margin="0,0,0,10">
             <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Ativo</x:String>
                         <x:String>Inativo</x:String>
                         <x:String>Em Revisão</x:String>
-                        <!-- Adicione mais status conforme necessário -->
+                        <x:String>Em Progresso</x:String>
+                        <x:String>Concluído</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <!-- Filtro por Sensibilidade -->
+            <Label Text="Selecione a Classificação de Sensibilidade:" TextColor="#CAA979"  FontAttributes="Bold" Margin="0,0,0,10"/>
+            <Picker x:Name="PickerSensibilidade" BackgroundColor="Gray" Margin="0,0,0,10" TextColor="Gray">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Público</x:String>
+                        <x:String>Interno</x:String>
+                        <x:String>Confidencial</x:String>
+                        <x:String>Restrito</x:String>
+                        <x:String>Altamente Confidencial</x:String>
+                        <!-- Adicione mais classificações conforme necessário -->
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
 
             <!-- Filtro por Outro Critério -->
-            <Label Text="Filtro Adicionais:" FontAttributes="Bold" Margin="0,0,0,10"/>
-            <Entry Placeholder="Outro Critério" x:Name="EntryOutroCriterio" Margin="0,0,0,10" />
+            <Label Text="Filtro Adicionais:" TextColor="#CAA979" FontAttributes="Bold" Margin="0,0,0,10"/>
+            <Entry Placeholder="Outro Critério" BackgroundColor="Gray" x:Name="EntryOutroCriterio" Margin="0,0,0,10" />
 
             <!-- Botão de Busca -->
-            <Button Text="Buscar Ativos" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="Black" TextColor="White"/>
+            <Button Text="Buscar Ativos" FontAttributes="Bold" FontSize="18" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="#CAA979" TextColor="Black"/>
         </StackLayout>
     </ScrollView>   
 </ContentPage>

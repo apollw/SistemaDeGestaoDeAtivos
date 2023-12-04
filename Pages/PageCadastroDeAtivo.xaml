@@ -2,34 +2,40 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SistemaDeGestaoDeAtivos.Pages.PageCadastroDeAtivo"
-             BackgroundColor="#F7F7F7"
+             BackgroundColor="#363636"
              Title="Cadastro de Ativo">
 
 
     <ScrollView>
     <VerticalStackLayout Margin="15" Spacing="15">
 
-        <Image Source="logo_sistema.png" HeightRequest="300"/>        
-        <Label Text="Cadastro de Ativo" FontSize="Large" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Image Source="logo_atualizado.png" HeightRequest="300"/>        
 
         <!-- Campos de entrada -->
-        <Label Text="Nome" FontAttributes="Bold" />
-        <Entry x:Name="NomeEntry" Placeholder="Digite o nome"/>
+        <Label Text="Nome" FontAttributes="Bold" TextColor="#CAA979"/>
+        <Entry x:Name="NomeEntry" Placeholder="Digite o nome" BackgroundColor="Gray"/>
 
-        <Label Text="Descrição" FontAttributes="Bold" />
-        <Entry x:Name="DescricaoEntry" Placeholder="Digite a descrição" />
+        <Label Text="Descrição" FontAttributes="Bold" TextColor="#CAA979"/>
+        <Entry x:Name="DescricaoEntry" Placeholder="Digite a descrição" BackgroundColor="Gray"/>
 
-        <Label Text="Tipo de Ativo" FontAttributes="Bold" />
-        <Entry x:Name="TipoAtivoEntry" Placeholder="Digite o tipo de ativo" />
+        <Label Text="Tipo de Ativo" FontAttributes="Bold" TextColor="#CAA979"/>
+        <Entry x:Name="TipoAtivoEntry" Placeholder="Digite o tipo de ativo" BackgroundColor="Gray"/>
 
-        <Label Text="Categoria" FontAttributes="Bold" />
-        <Entry x:Name="CategoriaEntry" Placeholder="Digite a categoria" />
+        <Label Text="Categoria" FontAttributes="Bold" TextColor="#CAA979"/>
+        <Entry x:Name="CategoriaEntry" Placeholder="Digite a categoria" BackgroundColor="Gray"/>
 
-        <Label Text="Adicionar Metadados" FontAttributes="Bold" />
-        <Picker x:Name="_picker" TextColor="Black"/>
+        <Label Text="Adicionar Metadados" FontAttributes="Bold" TextColor="#CAA979" />
+        <Picker x:Name="_picker" BackgroundColor="Gray"/>
 
         <!-- Botão para cadastrar -->
-        <Button Text="Cadastrar Ativo" Clicked="CadastrarAtivo_Clicked" BackgroundColor="Black" Margin="0,0,0,50"/>
+        <Button 
+            Text="Cadastrar Ativo"
+            TextColor="Black"
+            FontAttributes="Bold"
+            FontSize="18"
+            Clicked="CadastrarAtivo_Clicked"
+            BackgroundColor="#CAA979"
+            Margin="0,0,0,50"/>
 
     </VerticalStackLayout>
    </ScrollView>

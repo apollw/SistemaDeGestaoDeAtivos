@@ -2,75 +2,59 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SistemaDeGestaoDeAtivos.Pages.PageVisualizacaoDeAtivo"
-             Title="PageVisualizacaoDeAtivo">
+             BackgroundColor="#363636"
+             Title=" Visualização de Ativo">
     
     <ScrollView>
-            <StackLayout Margin="20">
-                <!-- Título e Ilustração -->
-                <StackLayout Spacing="5">
-                    <Label Text="Detalhes do Ativo de Informação" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,0,0,20"/>
-                    <Image Source="button_1.png" WidthRequest="150" HeightRequest="150" HorizontalOptions="Center"/>
-                </StackLayout>
+        <StackLayout Margin="20">
+        <!-- Título e Ilustração -->
+        <Label TextColor="WhiteSmoke"  Text="Detalhes do Ativo de Informação" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,0,0,20"/>
+        <Image Source="button_1.png" WidthRequest="150" HeightRequest="150" HorizontalOptions="Center"/>
+        <!-- Seção de Detalhes do Ativo -->
+        <Frame BackgroundColor="#363636" CornerRadius="10" Padding="15" Margin="0,20,0,20">
+        <StackLayout>
+        <Label HorizontalOptions="Center" TextColor="LightGray" Text="Detalhes Gerais" FontSize="Medium" FontAttributes="Bold" Margin="0,0,0,10"/>
+        <!-- Nome do Ativo -->
+        <Label TextColor="#CAA979" Text="Nome:" FontAttributes="Bold" Margin="0,0,0,5"/>
+        <Label TextColor="LightGray" Text="Sistema de Gestão Financeira" FontSize="Small"/>
+        <!-- Tipo do Ativo -->
+        <Label TextColor="#CAA979" Text="Tipo:" FontAttributes="Bold" Margin="0,0,0,5"/>
+        <Label TextColor="LightGray" Text="Software" FontSize="Small"/>
+        <!-- Categoria do Ativo -->
+        <Label TextColor="#CAA979" Text="Categoria:" FontAttributes="Bold" Margin="0,0,0,5"/>
+        <Label TextColor="LightGray" Text="Finanças" FontSize="Small"/>
+        <!-- Data de Criação -->
+        <Label TextColor="#CAA979" Text="Data de Criação:" FontAttributes="Bold" Margin="0,0,0,5"/>
+        <Label TextColor="LightGray" Text="10 de Maio de 2022" FontSize="Small"/>
+        </StackLayout>
+        </Frame>
 
-                <!-- Seção de Detalhes do Ativo -->
-                <Frame BackgroundColor="White" CornerRadius="10" Padding="15" Margin="0,20,0,20">
-                    <StackLayout>
-                    <Label Text="Detalhes Gerais" FontSize="Medium" FontAttributes="Bold" Margin="0,0,0,10"/>
+        <!-- Seção de Metadados -->
+        <Frame BackgroundColor="#363636" CornerRadius="10" Padding="15" Margin="0,0,0,20">
+        <StackLayout>
+        <Label HorizontalOptions="Center" TextColor="LightGray" Text="Metadados" FontSize="Medium" FontAttributes="Bold" Margin="0,0,0,10"/>
+        <!-- Lista de Metadados (Simulação) -->
+        <StackLayout>
+        <Label TextColor="LightGray" Text="Versão: 1.0" FontSize="Small"/>
+        <Label TextColor="LightGray" Text="Autor: João Silva" FontSize="Small"/>
+        <Label TextColor="LightGray" Text="Última Modificação: 20 de Agosto de 2022" FontSize="Small"/>
+        <!-- Adicione mais metadados conforme necessário -->
+        </StackLayout>
 
-                    <!-- Nome do Ativo -->
-                    <Label Text="Nome:" FontAttributes="Bold" Margin="0,0,0,5"/>
-                    <Label Text="Sistema de Gestão Financeira" FontSize="Small" TextColor="#333"/>
+        </StackLayout>
+        </Frame>
 
-                    <!-- Tipo do Ativo -->
-                    <Label Text="Tipo:" FontAttributes="Bold" Margin="0,0,0,5"/>
-                    <Label Text="Software" FontSize="Small" TextColor="#333"/>
-
-                    <!-- Categoria do Ativo -->
-                    <Label Text="Categoria:" FontAttributes="Bold" Margin="0,0,0,5"/>
-                    <Label Text="Finanças" FontSize="Small" TextColor="#333"/>
-
-                    <!-- Data de Criação -->
-                    <Label Text="Data de Criação:" FontAttributes="Bold" Margin="0,0,0,5"/>
-                    <Label Text="10 de Maio de 2022" FontSize="Small" TextColor="#333"/>
-
-                    </StackLayout>
-                </Frame>
-
-                <!-- Seção de Metadados -->
-                <Frame BackgroundColor="White" CornerRadius="10" Padding="15" Margin="0,0,0,20">
-
-                    <StackLayout>
-                    <Label Text="Metadados" FontSize="Medium" FontAttributes="Bold" Margin="0,0,0,10"/>
-
-                    <!-- Lista de Metadados (Simulação) -->
-                    <StackLayout>
-                        <Label Text="Versão: 1.0" FontSize="Small" TextColor="#333"/>
-                        <Label Text="Autor: João Silva" FontSize="Small" TextColor="#333"/>
-                        <Label Text="Última Modificação: 20 de Agosto de 2022" FontSize="Small" TextColor="#333"/>
-                        <!-- Adicione mais metadados conforme necessário -->
-                    </StackLayout>
-
-                </StackLayout>
-                </Frame>
-
-                <!-- Seção de Histórico e Auditoria -->
-                <Frame BackgroundColor="White" CornerRadius="10" Padding="15">
-
-                    <StackLayout>
-                    <Label Text="Histórico e Auditoria" FontSize="Medium" FontAttributes="Bold" Margin="0,0,0,10"/>
-
-                    <!-- Histórico de Modificações (Simulação) -->
-                    <StackLayout>
-                        <Label Text="Versão 1.0 - Criado por João Silva em 10/05/2022" FontSize="Small" TextColor="#333"/>
-                        <Label Text="Versão 1.1 - Atualizado por Maria Oliveira em 15/06/2022" FontSize="Small" TextColor="#333"/>
-                        <!-- Adicione mais entradas de histórico conforme necessário -->
-                    </StackLayout>
-
-                </StackLayout>
-                    
-                </Frame>
-            </StackLayout>
-        </ScrollView>
-
-
+        <!-- Seção de Histórico e Auditoria -->
+        <Frame BackgroundColor="#363636" CornerRadius="10" Padding="15">
+        <StackLayout>
+        <Label HorizontalOptions="Center" Text="Histórico e Auditoria" FontSize="Medium" FontAttributes="Bold" Margin="0,0,0,10" TextColor="LightGray"/>
+        <!-- Histórico de Modificações (Simulação) -->
+        <StackLayout>
+        <Label TextColor="LightGray" Text="Versão 1.0 - Criado por João Silva em 10/05/2022" FontSize="Small"/>
+        <Label TextColor="LightGray" Text="Versão 1.1 - Atualizado por Maria Oliveira em 15/06/2022" FontSize="Small"/>
+        </StackLayout>
+        </StackLayout>
+        </Frame>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

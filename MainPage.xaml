@@ -2,25 +2,19 @@
 <ContentPage xmlns                 = "http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x               = "http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class               = "SistemaDeGestaoDeAtivos.MainPage"
+             BackgroundColor       = "#363636"
              Shell.TabBarIsVisible = "False">
 
-    <ScrollView BackgroundColor="#F7F7F7">
+    <!--<ScrollView BackgroundColor="#F7F7F7">-->
+    <ScrollView >
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25"
             VerticalOptions="Center">
 
-            <Label
-                Text="Gestor de Ativos de Informação"
-                Style="{StaticResource Headline}"/>
-
-            <Image Source="logo_sistema.png" HeightRequest="250"/>
-
+            <Image Source="logo_atualizado.png" MaximumWidthRequest="750"/>
+            
             <Grid RowDefinitions="5*,5*">
-                <Image 
-                Grid.Row = "0"
-                Source   = "img_ceape.png"
-                Aspect   = "AspectFill"/>
                 <StackLayout 
                 Grid.Row = "1"
                 Spacing  = "10"
@@ -31,9 +25,9 @@
                         MaxLength             = "50"
                         CharacterSpacing      = "2"
                         Placeholder           = "Usuário"
-                        PlaceholderColor      = "Gray"
+                        PlaceholderColor      = "WhiteSmoke"
                         HeightRequest         = "55"
-                        BackgroundColor       = "WhiteSmoke"
+                        BackgroundColor       = "Gray"
                         VerticalTextAlignment = "End"
                         ClearButtonVisibility = "WhileEditing"
                         Keyboard              = "Default"
@@ -52,8 +46,8 @@
                         FontSize              = "15"
                         CharacterSpacing      = "2"                   
                         Placeholder           = "Senha"
-                        PlaceholderColor      = "Gray"
-                        BackgroundColor       = "WhiteSmoke"               
+                        PlaceholderColor      = "WhiteSmoke"
+                        BackgroundColor       = "Gray"               
                         HeightRequest         = "55"
                         IsPassword            = "True"
                         ClearButtonVisibility = "WhileEditing"
@@ -71,9 +65,8 @@
                         x:Name          = "_btn_Login"
                         Text            = "Entrar"
                         FontSize        = "20"
-                        BackgroundColor = "#14d1ca"
+                        BackgroundColor = "Black"
                         Clicked         = "Btn_Login"
-                        Margin          = "0,150,0,0"
                         VerticalOptions = "End"/>
                 </StackLayout>
             </Grid>
