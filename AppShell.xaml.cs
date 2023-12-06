@@ -1,4 +1,4 @@
-﻿using SistemaDeGestaoDeAtivos.Pages;
+using SistemaDeGestaoDeAtivos.Pages;
 
 namespace SistemaDeGestaoDeAtivos
 {
@@ -7,6 +7,8 @@ namespace SistemaDeGestaoDeAtivos
         public AppShell()
         {
             InitializeComponent();
+
+		 //teste
             
             Routing.RegisterRoute(nameof(PageLoading), typeof(PageLoading));
 
